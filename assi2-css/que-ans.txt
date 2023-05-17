@@ -1,0 +1,69 @@
+1) What are the benefits of using CSS?
+ans-  time-saving , less-code , better website speed , flexible ,improve speed, easy to maintain etc..
+
+2) What are the disadvantages of CSS?
+ans- confusion due to many css version ,extra works for developer, security issues , cross-browser issues , create confusion etc...
+
+3) What is the difference between CSS2 and CSS3?
+ans- 
+
+4) Name a few CSS style components .
+ans- CSS style components such as font-size,width,background-color,color,border etc..
+
+5) What do you understand by CSS opacity? 
+ans- Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+6) How can the background color of an element be changed? 
+ans- The background color of an element be changed using the CSS background-color property.
+
+7) How can image repetition of the backup be controlled?
+ans- We can image repetition controll using background-repeat property.
+
+8) What is the use of the background-position property? 
+ans- The background-position property sets the starting position of a background image. Tip: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+
+9) Which property controls the image scroll in the background?
+ans- The background-attachment property controls the image scroll in the background.
+
+10) Why should background and color be used as separate properties?
+ans- background property used for background purpose and color property is used for text.
+
+11) How to center block elements using CSS1?
+ans- using a margin property.
+
+12) How to maintain the CSS specifications?
+ans- Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+
+13) What are the ways to integrate CSS as a web page?
+ans- External CSS.
+Internal CSS.
+Inline CSS.
+
+14) What is embedded style sheets?
+ans- An embedded style sheet is declared within the <head> element of an XHTML document. It applies to the whole document, rather than just one element. Each style declaration (or CSS rule) gets applied to everything in the document that matches that rule.
+
+15) What are the external style sheets?
+ans- An external style sheet is a separate file linked to an HTML web page. It comes with a . css filename extension.
+
+16) What are the advantages and disadvantages of using external style sheets?
+ans-
+ advantages :
+-->one change to the style sheet will change all linked pages.
+-->you can create classes of styles that can then be used on many different HTML elements.
+-->consistent look and feel across multiple web pages.
+disadvantages: 
+-->Your pages may not be rendered correctly until the external CSS is loaded.
+-->Uploading or linking to multiple CSS files can increase your site's download time.
+
+17) What is the meaning of the CSS selector? 
+ans-   A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+18) What are the media types allowed by CSS?
+ans- 
+-->continuous or paged.
+-->visual, audio, speech, or tactile.
+-->grid ,flex or bitmap.
+-->interactive or static.
+
+19) What is the rule set?
+ans-  A CSS rule set contains one or more selectors and one or more declarations. The selector(s), which in this example is h1 , points to an HTML element. The declaration(s), which in this example are color: blue and text-align: center style the element with a property and value.

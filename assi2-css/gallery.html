@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery 
+        {
+           
+            margin: 100px 100px; 
+        }
+        .i 
+        {
+            border: 5px solid;
+            height: 250px;
+        }
+        img 
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .col1 
+        {
+            display: grid;
+            grid-template-columns: 7fr 3fr;
+        }
+        .col2 
+        {
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+        }
+        .col3 
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .col4 
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @media(max-width:900px)
+        {
+            .col1 
+            {
+                grid-template-columns: 1fr;
+            }
+            .col2 
+            {
+                grid-template-columns: 1fr;
+            } .col3 
+            {
+                grid-template-columns: 1fr;
+            } .col4
+            {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="gallery">
+
+        <div class="col1">
+            <div class="i"><img src="i1.jpg"></div>
+            <div class="i"><img src="i2.jpg"></div>
+        </div>
+        <div class="col2">
+            <div class="i"><img src="i3.jpg"></div>
+            <div class="i"><img src="i4.jpg"></div>
+            <div class="i"><img src="i5.jpg"></div>
+        </div>
+        <div class="col3">
+            <div class="i"><img src="i6.jpg"></div>
+            <div class="i"><img src="i7.jpg"></div>
+        </div>
+        <div class="col4">
+            <div class="i"><img src="i8.jpg"></div>
+            <div class="i"><img src="i9.jpg"></div>
+            <div class="i"><img src="i10.jpg"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
