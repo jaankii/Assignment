@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .main 
+        {
+            border: 2px solid;
+            margin: 100px auto;
+            padding: 50px;
+            width: 500px;
+            
+        }
+        .main h4 
+        {
+            text-align: center;
+        }
+        p 
+        {
+            text-align: center;
+        }
+        span 
+        {
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <h4> Marksheet for Information Technology </h4>
+        <p> Enter marks </p>
+        <table>
+            <tr>
+                 <td> 1. C Language </td>
+                 <td><input type="text" id="m1"></td>
+            </tr>
+
+            <tr>
+                <td>  2. C++ Language </td>
+                <td><input type="text" id="m2"></td>
+            </tr>
+
+            <tr>
+                <td>  3. Database  </td>
+                <td><input type="text" id="m3"></td>
+            </tr> 
+
+            <tr>
+                <td>  4. HTML </td>
+                <td><input type="text" id="m4"></td>
+            </tr>
+
+            <tr>
+                <td>  5. CSS  </td>
+                <td><input type="text" id="m5"></td>
+            </tr>
+
+            <tr>
+                <td> 6. php </td>
+                <td><input type="text" id="m6"></td>
+            </tr>
+
+            <tr>
+                <td>  7. Core java  </td>
+                <td><input type="text" id="m7"></td>
+            </tr>
+            
+            <tr>
+                <td>    </td>
+                <td><button onclick="test()">Result</button></td>
+            </tr>
+            
+            <tr>
+                <td> Total is: <span id="tot"></span>/350   </td>
+                <td>Percentage is: <span id="per"></span> %</td>
+            </tr>
+
+        
+        </table>
+    </div>
+    
+
+    <script>
+        m1 = document.getElementById('m1');
+        m1 = document.getElementById('m2');
+        m1 = document.getElementById('m3');
+        m1 = document.getElementById('m4');
+        m1 = document.getElementById('m5');
+        m1 = document.getElementById('m6');
+        m1 = document.getElementById('m7');
+        total = document.getElementById('tot');
+        percentage = document.getElementById('per');
+
+        function test()
+        {
+         
+        total.innerHTML = parseInt(m1.value) + parseInt(m2.value) + parseInt(m3.value) + parseInt(m4.value) + parseInt(m5.value) + parseInt(m6.value) + parseInt(m7.value) ;
+        
+        percentage.innerHTML = (total.innerHTML / 7 );
+
+        }
+    </script>
+</body>
+</html>
